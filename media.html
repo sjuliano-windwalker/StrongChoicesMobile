@@ -1,0 +1,93 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<title>Strong Choices Mobile</title>
+<link href="css/reset.css" rel="stylesheet" type="text/css">
+<link href="css/scmobile.css" rel="stylesheet" type="text/css">
+<link href='http://fonts.googleapis.com/css?family=Average+Sans|Oswald' rel='stylesheet' type='text/css'>
+</head>
+
+<body id="top">
+<div id="bodyContainer">
+<!----------TOP OF DESIGN------>
+
+    <div id="header">
+        <a href="index.html"><div class="logo">Strong Choices</div></a>
+        <div class="menuBtns">
+            <a href="#menu"><div class="menuBtn">MENU</div></a>
+            <!--<div class="loginBtn">Login</div>-->
+        </div>
+    </div>
+
+<!----------BANNER SECTION------>
+<div id="bannerContainer">
+	<div class="bannerMedia">
+    	<h1 class="title">MEDIA</h1>
+    </div>
+    <div id="subNav">
+    <ul id="tabmenu" class="tabmenu">
+<!--			<li class="active"><a href="#faqs">FAQs</a></li>
+-->			<li class="active"><a href="#resources">COMICS</a></li>
+			<li><a class="last" href="#contact">VIDEOS</a></li>
+		</ul>
+    </div>
+</div>
+<!----------CONTENT SECTION------>
+<div id="content">
+<!----------EDIT CONTENT HERE---------->
+<!--		<div id="faqs" class="tabcontent">
+			<h2>FAQs</h2> 
+            <p>
+            <select class="dropdown">
+              <option value="default">Select a question from the list</option>
+              <option value="question1">I hear different things about using Spice and stuff like bath salts. Since I can use them in my everyday life, it seems like they wouldn't be harmful. Aren't they technically legal?</option>
+              <option value="question2">Opel</option>
+              <option value="question3">Audi</option>
+			</select>
+		</div>-->
+		<div id="resources" class="tabcontent">
+			<h2>CALL THE SHOTS</h2>
+            <p>EPISODE I: A NIGHT IN HEIDELBERG</p>
+            <p><a href="http://www.windwalker-testing.net/users/pmakarov/ICEMobile/index.htm" target="_blank"><img src="images/comic1btn.png"/></a></p>
+            <hr/>
+		</div>
+
+		<div id="contact" class="tabcontent">
+			<h2>VIDEOS</h2> 
+            <p>CONTENT COMING SOON...</p>
+		</div>
+<div style="clear:both"></div>
+
+<!----------END EDIT CONTENT---------->
+</div>
+<div id="backToTop">
+	<a class="backtotop" href="#top">BACK TO TOP</a>
+</div>
+<div id="menu">
+
+	<ul id="nav">
+    	<a href="index.html"><li class="home">HOME</li></a>
+        <a href="modules.html"><li class="modules">MODULES</li></a>
+        <a href="support.html"><li class="support">SUPPORT</li></a>
+        <a href="media.html"><li class="media">MEDIA</li></a>
+    </ul>
+</div>
+<!----------END ALL CONTENT------>
+</div>
+<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.tabify.js" type="text/javascript" charset="utf-8"></script>
+        <script src="js/jquery.tabify.source.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			// <![CDATA[
+				
+			$(document).ready(function () {
+				$('#tabmenu').tabify();
+			});
+					
+			// ]]>
+		</script>
+</body>
+</html>

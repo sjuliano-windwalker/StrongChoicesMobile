@@ -1,0 +1,277 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background: #303c52;
+	margin: 0 auto;
+}
+a {
+	color: #FFF;
+	text-decoration: none;
+}
+#bodyContainer {
+	background: url(../images/bgTexture.png) repeat-x #ffffff;
+	width: 100%;
+	position: relative;
+	min-height: 480px;
+	z-index: 3;
+}
+h1 {
+	font-family: 'Average Sans', sans-serif;
+	color: #FFF;
+	font-size: 24px;
+	font-weight: normal;
+}
+h2 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 1.5;
+}
+p {
+	line-height: 1.5;
+	font-family: inherit;
+	text-align: left;
+	vertical-align: baseline;
+	line-break:strict;
+}
+hr {
+	background: url(../images/hr.png) no-repeat;
+	width: 287px;
+	height: 6px;
+	border: none;
+	text-align: center;
+}
+.dropdown {
+	width: 300px;
+	word-wrap: normal;
+}
+/*--------------------THIS IS THE HEADER AREA FOR BUTTONS----------------------*/
+/*-----------------------------------------------------------------------------*/
+
+#header {
+	height: 58px;
+	font-family: 'Oswald', sans-serif;
+	color: #FFF;
+}
+.logo {
+	background:url(../images/logo2x.png) no-repeat;
+	background-size: 154px 58px;
+	display: block;
+	float: left;
+	width:154px;
+	height: 58px;
+	text-indent: -99999px;
+	position: relative;
+}
+.menuBtn {
+	background: url(../images/menubtn.png) no-repeat;
+	display: block;
+	float: right;
+	width: 66px;
+	height: 52px;
+	margin-right: 10%;
+	text-align: center;
+	padding-top: 15px;
+}
+/*.loginBtn {CODE FOR LOGIN BUTTON GOES HERE}*/
+
+
+/*--------------------THIS IS THE BANNER SECTION WITH ROOM FOR SUBNAV----------------------*/
+/*-----------------------------------------------------------------------------------------*/
+#bannerContainer {
+	margin: 15px 0px 8px 0px;
+	width: 100%;
+	min-height: 100px;
+	background: #252525;
+}
+#bannerContainer.nobg {
+	background-color: transparent;
+}
+.bannerHome {
+	width: 100%;
+	min-height: 130px;
+}
+.bannerModules {
+	width: 100%;
+	background: url(../images/modulesbanner.png) no-repeat;
+}
+.bannerSupport {
+	width: 100%;
+	background: url(../images/supportbanner.png) no-repeat;
+}
+.bannerMedia {
+	width: 100%;
+	background: url(../images/mediabanner.png) no-repeat;
+}
+h1.title {
+	padding: 70px 0px 5px 15px;
+	font-family: 'Oswald', sans-serif;
+}
+/*--------------------THIS IS THE CONTENT SECTION----------------------*/
+/*---------------------------------------------------------------------*/
+
+#content {
+	padding: 0px 15px 15px 15px;
+	font-size: 16px;
+	color: #036;
+	font-family: 'Average Sans', sans-serif;
+	line-height: 18px;
+}
+#leftContent {
+	width: 30%;
+	float: left;
+	font-size: 9px;
+}
+#rightContent {
+	width: 70%;
+	float: left;
+	padding-left: 15px
+}
+/*--------------------THIS IS THE MENU AREA FOR BUTTONS----------------------*/
+/*---------------------------------------------------------------------------*/
+
+#backToTop {
+	width: 100%;
+	background: #000000;
+	height: 40px;
+	font-family: 'Oswald', sans-serif;
+	color: #FFF;
+}
+a.backtotop {
+	float: right;
+	text-decoration: none;
+	padding: 10px 15px 0px 0px;
+}
+#menu {
+	bottom: 0px;
+	min-height: 293px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 18px;
+	color: #FFF;
+	background: url(../images/menuBG.png) repeat-x #303c52;
+}
+ul#nav {
+	list-style-type: none;
+	padding: 10px 0px 10px 0px;
+	margin: 0px;
+	width: 100%;
+}
+li.home, li.modules, li.support, li.media {
+	margin: 0px 0px 0px 0px;
+	padding: 25px 0px 25px 100px;
+	display: block;
+	text-indent: none;
+	border-bottom: #CCC solid 1px;
+}
+#nav li.home {
+	background: url(../images/homeIcon.png) 20px no-repeat;
+	background-size:59px 45px;
+}
+#nav li.modules {
+	background: url(../images/modulesIcon.png) 20px no-repeat;
+	background-size:59px 45px;
+}
+#nav li.support {
+	background: url(../images/supportIcon.png) 20px no-repeat;
+	background-size:59px 45px;
+}
+#nav li.media {
+	background: url(../images/mediaIcon.png) 20px no-repeat;
+	background-size:59px 45px;
+	border-bottom: none;
+}
+/*--------------------SUB-NAVIGATION STYLES----------------------------------*/
+/*---------------------------------------------------------------------------*/
+#subNav {
+	background: url(../images/subnavbg.png) repeat-x;
+	height: 34px;
+	width: 100%
+}
+.tabmenu, .tabmenu2 {
+	font-family: 'Oswald', sans-serif;
+}
+.tabmenu li {
+	display: inline;
+}
+.tabmenu2 li {
+	padding:20px 20px 20px 20px;
+	border: solid thin #666;
+	background: #999;
+	margin: 2px;
+	display:block;
+	font-size:18px;
+	line-height:1.5;
+}
+.tabmenu li a {
+	width: 25%;
+	padding: 8px;
+	float: left;
+	border-right: 1px solid #CCC;
+	border-bottom: none;
+	text-decoration: none;
+	text-align: center;
+	color: #999;
+	font-weight: bold;
+}
+.tabmenu li.active a {
+	color: #FFF;
+}
+li a.last {
+	border-right: 0px none;
+}
+.tabcontent {
+	float: left;
+	clear: both;
+}
+ul.resourceLinks li {
+	background: #999;
+	margin: 2px;
+	padding: 5px;
+	height: 30px;
+	line-height: 2;
+	display: inline-block;
+	text-align: center;
+	word-wrap: none;
+}
+.ajax-wrapper {
+	height: 80%;
+	padding: 8px;
+	font-family: 'Average Sans', sans-serif;
+}
+.ajax-wrapper h1 {
+	font-family: 'Oswald', sans-serif;
+	color: #000;
+	text-align: center;
+}
+.ajax-wrapper img {
+	text-align: center;
+}
+#bw, #rw, #liw, #ww, #lew, #q1, #q2, #q3, #q4 {
+	display: none;
+}
+
+/*------------MODULES PAGE--------------*/
+ul#modulelinks li {
+	font-family:'Oswald', sans-serif;
+	padding:20px 20px 20px 60px;
+	border: solid thin #666;
+	background: #999;
+	margin: 2px;
+	display:block;
+	font-size:18px;
+}
+
+ul#modulelinks li.bw{background: url(../images/bwIcon.png) no-repeat #628E05 20px; background-size: 35px 35px;}
+ul#modulelinks li.rw{background: url(../images/rwIcon.png) no-repeat #BCBB36 20px; background-size: 35px 35px;}
+ul#modulelinks li.liw{background: url(../images/liwIcon.png) no-repeat #225987 20px; background-size: 35px 35px;}
+ul#modulelinks li.ww{background: url(../images/wwIcon.png) no-repeat #A77715 20px; background-size: 35px 35px;}
+ul#modulelinks li.lew{background: url(../images/lewIcon.png) no-repeat #823107 20px; background-size: 35px 35px;}
+
+a.top {
+	font-family: 'Oswald', sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 1.5;
+	color:#000;
+}
